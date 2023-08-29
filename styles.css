@@ -13,13 +13,14 @@ header {
   padding: 10px;
 }
 
-nav ul {
-  list-style: none;
+nav ul, ul {
+  list-style-type: none; /* Remove default list markers */
   padding: 0;
+  margin: 0; /* Remove default margin for lists */
   display: flex;
 }
 
-nav li {
+nav li, li {
   margin-right: 20px;
 }
 
